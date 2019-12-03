@@ -1,0 +1,14 @@
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\bin\Debug\TwitterClone.exe.config
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\bin\Debug\TwitterClone.exe
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\bin\Debug\TwitterClone.pdb
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\TwitterClone.csprojAssemblyReference.cache
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\TwitterClone.Login.resources
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\TwitterClone.Properties.Resources.resources
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\TwitterClone.csproj.GenerateResource.cache
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\TwitterClone.csproj.CoreCompileInputs.cache
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\TwitterClone.exe
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\TwitterClone.pdb
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\TwitterClone.Registro.resources
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\TwitterClone.Forms.Entrar.resources
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\TwitterClone.Forms.Home.resources
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\TwitterClone.Forms.Perfil.resources
