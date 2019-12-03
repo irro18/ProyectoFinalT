@@ -95,3 +95,32 @@ exec dbo.jalarDatos
 	@hasError = '0'
 
 select * from Userr
+select * from tweet 
+
+create table tweet
+(
+	idtweet int primary key identity(1,1),
+	texto nvarchar(max),
+	ubicacion nvarchar(max),
+	hora datetime,
+	likes int,
+	idUsuario int
+);
+go
+
+insert into tweet (texto, ubicacion, hora, likes, idUsuario)
+values ('tercer tweet', 'Ciudad de México', '04-12-2019', 0, '3');
+
+create procedure getTweets @hasError bit out
+as
+begin try
+	set @hasError = 0
+	select * from tweet 
+end try
+begin catch
+	set @hasError = 1;
+end catch
+go
+
+exec dbo.getTweets
+	@hasError = '0'

@@ -183,6 +183,49 @@ namespace TwitterClone.Services
 
         }
 
+        //public Usuario GetTweets()
+        //{
+        //    try
+        //    {
+        //        string SQLConnection = ConfigurationManager.ConnectionStrings["SQLConnection"].ToString();
+        //        using (SqlConnection _clientazo = new SqlConnection(SQLConnection))
+        //        {
+        //            _clientazo.Open();
+        //            using (SqlCommand cmd = new SqlCommand("SELECT * FROM tweets WHERE Nombre='" + "'", _clientazo))
+
+        //            {
+
+        //                SqlDataReader dr = cmd.ExecuteReader();
+        //                if (dr.Read())
+        //                {
+                            
+        //                    //var command = new SqlCommand
+        //                    //{
+        //                    //    Connection = _clientazo.Connection,
+        //                    //    CommandText = "getTweets",
+        //                    //    CommandType = CommandType.StoredProcedure
+        //                    //};
+
+        //                    //var par1 = new SqlParameter("@haserror", SqlDbType.Bit)
+        //                    //{
+        //                    //    Direction = ParameterDirection.Output
+        //                    //};
+
+        //                    //command.Parameters.Add(par1);
+        //                    //var dataReader = command.ExecuteReader();
+        //                    //while (dataReader.Read())
+        //                    //{
+        //                    //    tweets.Add(dataReader["Tweet"].ToString());
+        //                    //}
+        //                }
+        //            }
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(ex.ToString());
+        //    }
+        //}
 
     }
 }

@@ -12,3 +12,6 @@ C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\Twitte
 C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\TwitterClone.Forms.Entrar.resources
 C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\TwitterClone.Forms.Home.resources
 C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\TwitterClone.Forms.Perfil.resources
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\bin\Debug\RestSharp.dll
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\bin\Debug\RestSharp.xml
+C:\Users\ivanR\Documents\UP\7\Patrones de  Diseño\TwitterClone\obj\Debug\TwitterClone.csproj.CopyComplete

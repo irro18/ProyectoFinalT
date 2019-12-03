@@ -30,14 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxtweet = new System.Windows.Forms.TextBox();
             this.botonTwittear = new System.Windows.Forms.Button();
             this.botonFeed = new System.Windows.Forms.Button();
             this.buttonIrPerfil = new System.Windows.Forms.Button();
             this.buttonTwittear = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonCerrarSesion = new System.Windows.Forms.Button();
+            this.dataGridTweetsHome = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridTweetsHome)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -52,16 +54,16 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Inicio";
             // 
-            // textBox1
+            // textBoxtweet
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox1.Location = new System.Drawing.Point(167, 55);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(199, 18);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "¿Qué está pasando?";
+            this.textBoxtweet.BackColor = System.Drawing.Color.White;
+            this.textBoxtweet.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxtweet.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBoxtweet.Location = new System.Drawing.Point(167, 55);
+            this.textBoxtweet.Name = "textBoxtweet";
+            this.textBoxtweet.Size = new System.Drawing.Size(199, 18);
+            this.textBoxtweet.TabIndex = 1;
+            this.textBoxtweet.Text = "¿Qué está pasando?";
             // 
             // botonTwittear
             // 
@@ -76,6 +78,7 @@
             this.botonTwittear.TabIndex = 2;
             this.botonTwittear.Text = "Twittear";
             this.botonTwittear.UseVisualStyleBackColor = false;
+            this.botonTwittear.Click += new System.EventHandler(this.BotonTwittear_Click);
             // 
             // botonFeed
             // 
@@ -142,24 +145,36 @@
             this.buttonCerrarSesion.UseVisualStyleBackColor = false;
             this.buttonCerrarSesion.Click += new System.EventHandler(this.ButtonCerrarSesion_Click);
             // 
+            // dataGridTweetsHome
+            // 
+            this.dataGridTweetsHome.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridTweetsHome.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridTweetsHome.GridColor = System.Drawing.Color.DodgerBlue;
+            this.dataGridTweetsHome.Location = new System.Drawing.Point(167, 108);
+            this.dataGridTweetsHome.Name = "dataGridTweetsHome";
+            this.dataGridTweetsHome.Size = new System.Drawing.Size(245, 399);
+            this.dataGridTweetsHome.TabIndex = 8;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(707, 519);
+            this.Controls.Add(this.dataGridTweetsHome);
             this.Controls.Add(this.buttonCerrarSesion);
             this.Controls.Add(this.buttonTwittear);
             this.Controls.Add(this.buttonIrPerfil);
             this.Controls.Add(this.botonFeed);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.botonTwittear);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxtweet);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Home";
             this.Text = "Home";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridTweetsHome)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -168,12 +183,13 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxtweet;
         private System.Windows.Forms.Button botonTwittear;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button botonFeed;
         private System.Windows.Forms.Button buttonIrPerfil;
         private System.Windows.Forms.Button buttonTwittear;
         private System.Windows.Forms.Button buttonCerrarSesion;
+        private System.Windows.Forms.DataGridView dataGridTweetsHome;
     }
 }
