@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="SQL\TwitterQuery2.sql" />
     <None Include="Resources\log.JPG" />
     <None Include="Resources\Twitter.jpg" />
     <None Include="Resources\tend.JPG" />
